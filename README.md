@@ -68,3 +68,41 @@ src/
 │
 └── test/
 ```
+
+## 🚀 Installation & Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Beda202/secure-movie-api-springboot.git
+cd secure-movie-api-springboot
+```
+
+### 2️⃣ Configure Application
+
+Update the following file with your database credentials:
+
+```
+src/main/resources/application.properties
+```
+
+Example:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/movie_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+```
+
+### 3️⃣ Build & Run the Application
+
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+
+Application will start at:
+
+```
+http://localhost:8080
+```
