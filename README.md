@@ -42,4 +42,8 @@ This API demonstrates real-world backend concepts, perfect for portfolios and re
 ---
 ## 🗄️ ER Diagram
 
-![Database Schema](src/main/resources/static/docs/erd.png)
+<h3 align="center">Database Schema</h3>
+
+<p align="center">
+  <img src="src/main/resources/static/docs/erd.png" width="800"/>
+</p>
