@@ -91,7 +91,7 @@ Example:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/movie_db
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=Root123@#$
 ```
 
 ### 3️⃣ Build & Run the Application
