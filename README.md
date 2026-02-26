@@ -37,4 +37,9 @@ This API demonstrates real-world backend concepts, perfect for portfolios and re
 
 ## 🗺️ **API Documentation**
 > Use Postman / Swagger to explore all endpoints  
-> Secured endpoints require:  
+> Secured endpoints require:
+
+---
+## 🗄️ ER Diagram
+
+![Database Schema](docs/erd.png)
