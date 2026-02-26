@@ -47,3 +47,24 @@ This API demonstrates real-world backend concepts, perfect for portfolios and re
 <p align="center">
   <img src="src/main/resources/static/docs/erd.png" width="800"/>
 </p>
+
+--- 
+## 📂 Project Structure
+
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── com/movieapp/
+│   │       ├── auth/           # Authentication & Security logic
+│   │       ├── controller/     # REST Controllers
+│   │       ├── service/        # Business logic layer
+│   │       ├── repository/     # Data access layer (JPA)
+│   │       └── model/          # Entities
+│   │
+│   └── resources/
+│       ├── application.properties
+│       └── static/
+│
+└── test/
+```
